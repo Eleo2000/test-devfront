@@ -1,7 +1,8 @@
 @extends('layouts.home')
 @section('content')
 
-    <h1 class="text-2xl font-bold">Welcome</h1>
-
+<div id="app">
+    <home-component></home-component>
+</div>
 @stop
 

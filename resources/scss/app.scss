@@ -3,3 +3,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --back-principal: #BF2A6B;
+    --gris: #F8F9FB;
+    --titre-texte: #1E1E1E;
+    --color-texte-principal: #1E1E1E;
+    --color-texte-secondaire: #424242;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
